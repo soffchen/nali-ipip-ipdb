@@ -1,5 +1,5 @@
 # nali-ipip-ipdb
-a fork of http://www.surfchen.org/nali using IPIP .ipdb data file (http://ipip.net)
+A fork of http://www.surfchen.org/nali using IPIP .ipdb data file (http://ipip.net)
 
 基于 nali 修改支持 IPIP .ipdb 数据库 (http://ipip.net)
 
@@ -15,7 +15,7 @@ a fork of http://www.surfchen.org/nali using IPIP .ipdb data file (http://ipip.n
 
 ### for Macos
 
-`
+```
 homebrew install json-c
 gcc -o bin/ipipnali nali.c ipdb.c -I /usr/local/Cellar/json-c/0.13.1/include/json-c/ -L /usr/local/Cellar/json-c/0.13.1/lib -ljson-c
-`
+```
