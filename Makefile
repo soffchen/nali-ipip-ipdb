@@ -1,7 +1,6 @@
 include config.mak
 all:nali.c lib17mon/ipip.c
 	gcc -o bin/ipipnali nali.c lib17mon/ipip.c
-	cp share/nali.sh bin/nali
 install:bin share
 	install bin/ipipnali $(DESTDIR)$(bindir)
 	install bin/nali $(DESTDIR)$(bindir)
