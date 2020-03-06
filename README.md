@@ -16,6 +16,11 @@ A fork of http://www.surfchen.org/nali using IPIP .ipdb data file (http://ipip.n
 ### for Macos
 
 ```
-homebrew install json-c
-gcc -o bin/ipipnali nali.c ipdb.c -I /usr/local/Cellar/json-c/0.13.1/include/json-c/ -L /usr/local/Cellar/json-c/0.13.1/lib -ljson-c
+$ git clone https://github.com/soffchen/nali-ipip-ipdb
+$ cd nali-ipip-ipdb
+$ ./configure
+$ homebrew install json-c
+$ gcc -o bin/ipipnali nali.c ipdb.c -I /usr/local/Cellar/json-c/0.13.1/include/json-c/ -L /usr/local/Cellar/json-c/0.13.1/lib $ -ljson-c
+$ cp share/nali.sh bin/nali
+$ make install
 ```
