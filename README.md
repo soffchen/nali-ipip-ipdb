@@ -21,6 +21,5 @@ $ cd nali-ipip-ipdb
 $ ./configure
 $ brew install json-c
 $ gcc -o bin/ipipnali nali.c ipdb.c -I /usr/local/Cellar/json-c/0.13.1/include/json-c/ -L /usr/local/Cellar/json-c/0.13.1/lib $ -ljson-c
-$ cp share/nali.sh bin/nali
 $ make install
 ```
