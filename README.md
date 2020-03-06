@@ -13,7 +13,7 @@ A fork of http://www.surfchen.org/nali using IPIP .ipdb data file (http://ipip.n
 
 `command|nali (example: mtr 8.8.8.8|nali)`
 
-### for Macos
+### for macOS
 
 ```
 $ git clone https://github.com/soffchen/nali-ipip-ipdb
