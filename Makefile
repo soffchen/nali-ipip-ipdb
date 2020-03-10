@@ -1,6 +1,6 @@
 include config.mak
-all:nali.c lib17mon/ipip.c
-	gcc -o bin/ipipnali nali.c lib17mon/ipip.c
+all:nali.c
+	gcc -std=gnu99 -o bin/ipipnali nali.c ipdb.c -I/usr/include/json-c/ -ljson-c
 install:bin share
 	install bin/ipipnali $(DESTDIR)$(bindir)
 	install bin/nali $(DESTDIR)$(bindir)
